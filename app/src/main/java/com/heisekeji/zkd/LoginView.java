@@ -122,8 +122,8 @@ public class LoginView extends AppCompatActivity implements LoaderCallbacks<Curs
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 // TODO Auto-generated method stub
                 Intent intent2=new  Intent();
-                intent2.setClass(LoginView.this,RegisterView.class);
-                startActivity(intent2);
+                 intent2.setClass(LoginView.this,AppMainActivity.class);
+                 startActivity(intent2);
                 Log.d("dddddd= ",url);
                 // 跳转到另外的activity
                 return super.shouldOverrideUrlLoading(view, url);

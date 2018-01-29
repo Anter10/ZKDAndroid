@@ -25,4 +25,10 @@
     <string name="add_widget">Add widget</string>
 
     <string name="title_activity_register_view">RegisterView</string>
+    <string name="title_activity_app_main">AppMainActivity</string>
+    <string name="title_home">精选</string>
+    <string name="title_dashboard">折扣</string>
+    <string name="title_notifications">购物车</string>
+    <string name="title_person">个人</string>
+    <string name="title_activity_tab_main">TabMainActivity</string>
 </resources>

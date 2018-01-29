@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/bottom">
+        android:background="@android:color/white">
 
         <Button
             android:id="@+id/msg"
@@ -29,10 +29,10 @@
             android:layout_marginRight="1dp"
             android:layout_marginTop="2dp"
             android:layout_weight="1"
-            android:background="@layout/buttonshape"
+            android:background="@color/bottom"
             android:text="短信登录"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/find"
@@ -43,14 +43,13 @@
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="1dp"
             android:layout_marginRight="1dp"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="0dp"
             android:layout_weight="1"
-            android:background="@layout/buttonshape"
+            android:background="@color/bottom"
             android:elevation="0dp"
-            android:lineSpacingExtra="8sp"
             android:text="找回密码"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/face"
@@ -61,12 +60,12 @@
             android:layout_marginBottom="1dp"
             android:layout_marginLeft="1dp"
             android:layout_marginRight="1dp"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="0dp"
             android:layout_weight="1"
-            android:background="@layout/buttonshape"
+            android:background="@color/bottom"
             android:text="人脸登录"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
     </RelativeLayout>
 </LinearLayout>
